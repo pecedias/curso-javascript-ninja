@@ -1,5 +1,6 @@
 # Desafio Semana #1
 
+```js
 // Declarar uma variável chamada `myvar`, sem valor.
 var myvar;
 
@@ -7,13 +8,13 @@ var myvar;
 myvar = 10;
 
 // Declare uma nova variável chamada `soma`, e adicione uma instrução somando os valores 15 e 8.
-var soma = 15 + 8;
+var soma = 15+8;
 
 // Atribua à variável `soma` todo o valor dela, somando 1, usando o operador de soma abreviado.
 soma++;
 
 // Atribua à variável `soma` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
-soma *= 3;
+soma *=3;
 
 // Qual é o valor da variável `soma` até aqui?
 72;
@@ -35,11 +36,12 @@ myvar <= soma;
 
 // Crie uma função chamada `divisao` que receba como parâmetro dois números, e retorne o resultado da divisão entre eles.
 function divisao(x, y) {
-... return x / y;
-... }
+  return x / y;
+  }
 
 // Invoque a função criada acima, passando os parâmetros 10 e 2.
 function divisao(x, y) {
-... return x / y;
-... }
+  return x / y;
+  }
 divisao(10,2);
+```
