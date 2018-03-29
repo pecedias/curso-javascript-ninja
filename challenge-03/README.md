@@ -2,7 +2,7 @@
 
 ```js
 // Declarar uma variável qualquer, que receba um objeto vazio.
-?
+var objeto = {};
 
 /*
 Declarar uma variável `pessoa`, que receba suas informações pessoais.
@@ -59,7 +59,7 @@ Crie um método chamado `nomeCompleto`, que retorne a frase:
 - "Olá! Meu nome é [NOME] [SOBRENOME]!"
 */
 pessoa.nomeCompleto = function() {
- 	return 'Olá! Meu nome é ' +pessoa.nome +pessoa.sobrenome;
+ 	return 'Olá! Meu nome é ' +pessoa.nome+ ' ' +pessoa.sobrenome+ '!';
  	}
 
 /*
@@ -67,7 +67,7 @@ Crie um método chamado `mostrarIdade`, que retorne a frase:
 - "Olá, eu tenho [IDADE] anos!"
 */
 > pessoa.mostrarIdade = function() {
-... return 'Olá, eu tenho ' +pessoa.idade;
+... return 'Olá, eu tenho ' +pessoa.idade+ ' anos!';
 ... }
 
 /*
@@ -75,7 +75,7 @@ Crie um método chamado `mostrarPeso`, que retorne a frase:
 - "Eu peso [PESO]Kg."
 */
 > pessoa.mostrarPeso = function() {
-... return 'Eu peso ' +pessoa.peso;
+... return 'Eu peso ' +pessoa.peso+ 'Kg';
 ... }
 
 /*
@@ -83,7 +83,7 @@ Crie um método chamado `mostrarAltura` que retorne a frase:
 - "Minha altura é [ALTURA]m."
 */
 > pessoa.mostrarAltura = function() {
-... return 'Minha altura é ' +pessoa.altura;
+... return 'Minha altura é ' +pessoa.altura+ 'm';
 ... }
 
 /*
@@ -195,6 +195,4 @@ if (pessoa.sexo === 'Feminino') {
 	return  'Olá, eu sou ' +sexo+ ' ' +pessoa.nome+ ' ' +pessoa.sobrenome+ ' , tenho ' +pessoa.idade+ ' ' +idade+ ', ' +pessoa.altura+ ', meu peso é ' +pessoa.peso+ ' e, só hoje, eu já caminhei ' +pessoa.caminhouQuantosMetros+ ' ' +caminhou+ '!';
 }
 
-// Agora, apresente-se ;)
-?
 ```
